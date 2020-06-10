@@ -1,3 +1,4 @@
+// You can get the API key by visiting http://www.omdbapi.com/apikey.aspx
 const OMDB_API_KEY = 'http://www.omdbapi.com/?apikey=33b0104&'
 $('.input-keyword').on('keypress', function(e){
     if(e.which === 13)
